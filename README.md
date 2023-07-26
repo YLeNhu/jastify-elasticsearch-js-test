@@ -1,8 +1,13 @@
-# React + Vite
+Fastify + Elasticsearch + ReactJS + Redux Toolkit
+## About
+This project is about A Node.js application that uses Elasticsearch to store and retrieve book data
+## Installation instructions - server side
+*Step 1: Make sure you have Elasticsearch Docker already setup and running on your computer.
+*Step 2: Read and follow initalData.md at "/src/elasticsearch/initialData.md" to create some sample data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation instructions - project side
+*Step 1: Clone this respository to your computer.
+*Step 2: Open this project folder using your favorite IDE.
+*Step 3: Run "npm install" to build "node_modules" folder.
+*Step 4: Run "npm run server" to start server.
+*Step 5: Run "npm run dev" to start web.

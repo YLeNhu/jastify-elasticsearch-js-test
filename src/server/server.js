@@ -149,7 +149,7 @@ async function userRoutes(fastify) {
       }
     });
 
-    return data;
+    return req.body;
   });
 
   fastify.log.info("User routes registered");
