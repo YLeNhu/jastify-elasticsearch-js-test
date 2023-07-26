@@ -1,0 +1,42 @@
+{
+  "name": "fastify-elasticsearch-js",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Le Thi Nhu Y <y.contact.here@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "server": "nodemon src/server/server.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.2.1",
+    "@fastify/cors": "^8.3.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "fastify-plugin": "^4.0.0",
+    "pino-pretty": "^10.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.0",
+    "react-spinners": "^0.13.8"
+  },
+  "devDependencies": {
+    "@fastify/elasticsearch": "^3.1.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "dotenv": "16.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "fastify": "4.17.0",
+    "nodemon": "2.0.22",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}
